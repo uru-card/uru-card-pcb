@@ -20184,7 +20184,7 @@ SKU: 318010004</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.127" drill="0">
+<class number="0" name="default" width="0.2" drill="0">
 </class>
 <class number="1" name="VCC" width="0.25" drill="0">
 </class>
