@@ -82,6 +82,7 @@
                     },
                     "filename_format": "%PREFIX/profile.gbr",
                     "layers": [
+                        20,
                         46
                     ],
                     "milling": true,
@@ -193,8 +194,7 @@
                     "filename_format": "%PREFIX/silkscreen_top.gbr",
                     "layers": [
                         21,
-                        25,
-                        27
+                        25
                     ],
                     "milling": false,
                     "name": "Silkscreen Top",
@@ -223,6 +223,29 @@
                     ],
                     "milling": false,
                     "name": "Silkscreen Bottom",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "file_function": "Profile",
+                        "plating": "non-plated"
+                    },
+                    "filename_format": "%PREFIX/%N.gko",
+                    "layers": [
+                        20,
+                        46
+                    ],
+                    "milling": false,
+                    "name": "Outline",
                     "polarity": "positive",
                     "type": "gerber_layer"
                 }
@@ -278,7 +301,7 @@
             ]
         }
     ],
-    "timestamp": "2020-04-13T06:51:39",
+    "timestamp": "2020-09-02T13:51:06",
     "type": "EAGLE CAM job",
     "units": "metric",
     "version": "9.2.0"
