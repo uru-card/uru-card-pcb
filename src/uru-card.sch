@@ -11601,7 +11601,7 @@ required for the antenna.
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="U2" library="MPR121QR2" deviceset="MPR121QR2" device=""/>
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10u"/>
-<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10K"/>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="75K"/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10K"/>
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -12241,9 +12241,9 @@ required for the antenna.
 <pinref part="U$16" gate="G$1" pin="P3"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="U0TXD"/>
-<wire x1="160.02" y1="-35.56" x2="165.1" y2="-35.56" width="0.1524" layer="91"/>
-<label x="165.1" y="-35.56" size="1.016" layer="95" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="U0RXD"/>
+<wire x1="160.02" y1="-38.1" x2="165.1" y2="-38.1" width="0.1524" layer="91"/>
+<label x="165.1" y="-38.1" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="RXD" class="0">
@@ -12253,9 +12253,9 @@ required for the antenna.
 <pinref part="U$16" gate="G$1" pin="P2"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="U0RXD"/>
-<wire x1="160.02" y1="-38.1" x2="165.1" y2="-38.1" width="0.1524" layer="91"/>
-<label x="165.1" y="-38.1" size="1.016" layer="95" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="U0TXD"/>
+<wire x1="160.02" y1="-35.56" x2="165.1" y2="-35.56" width="0.1524" layer="91"/>
+<label x="165.1" y="-35.56" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="RST" class="0">
