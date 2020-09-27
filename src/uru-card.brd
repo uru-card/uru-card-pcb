@@ -2302,7 +2302,6 @@ design rules under a new name.</description>
 <wire x1="25.5" y1="12" x2="25.15" y2="12" width="0.25" layer="1"/>
 <wire x1="38.375" y1="11.625" x2="38.375" y2="12" width="0.25" layer="1"/>
 <wire x1="38.125" y1="11.375" x2="38.375" y2="11.625" width="0.25" layer="1"/>
-<wire x1="38" y1="11.375" x2="38.125" y2="11.375" width="0.25" layer="16"/>
 <wire x1="33.875" y1="11.125" x2="34.5" y2="11.125" width="0.25" layer="1"/>
 <wire x1="21.75" y1="16" x2="21.925" y2="16" width="0.25" layer="1"/>
 <wire x1="21.75" y1="16" x2="21.75" y2="15.965" width="0.25" layer="1"/>
@@ -3033,8 +3032,6 @@ design rules under a new name.</description>
 <approved hash="19,1,c8f3c96859962655"/>
 <approved hash="19,1,bce3b65b1cf4113c"/>
 <approved hash="19,1,b93cb65f62781beb"/>
-<approved hash="5,1,a2cf39f947c2dcd3"/>
-<approved hash="5,1,884f889002a9057b"/>
 <approved hash="19,16,f935fc684450410d"/>
 </errors>
 </board>
