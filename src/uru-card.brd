@@ -2524,10 +2524,7 @@ design rules under a new name.</description>
 <wire x1="8.4" y1="19.83091875" x2="8.88621875" y2="19.3447" width="0.25" layer="16"/>
 <wire x1="38.375" y1="13" x2="39.4" y2="13" width="0.25" layer="1"/>
 <via x="39.4" y="13" extent="1-16" drill="0.35"/>
-<wire x1="15.8" y1="18.2" x2="15.8" y2="17.4" width="0.3" layer="1"/>
 <via x="15.8" y="17.4" extent="1-16" drill="0.35"/>
-<wire x1="15.8" y1="17.4" x2="15.8" y2="12.45" width="0.3" layer="16"/>
-<wire x1="15.8" y1="12.45" x2="14.6" y2="11.25" width="0.3" layer="16"/>
 <via x="14.6" y="11.25" extent="1-16" drill="0.35"/>
 <wire x1="12.2649" y1="5.6726" x2="12.4274" y2="5.8351" width="0.25" layer="1"/>
 <wire x1="12.4274" y1="7.5774" x2="13.35" y2="8.5" width="0.25" layer="1"/>
@@ -2541,14 +2538,14 @@ design rules under a new name.</description>
 <wire x1="22" y1="18.625" x2="36.375" y2="18.625" width="0.2" layer="1"/>
 <wire x1="39.375" y1="13" x2="39.4" y2="13" width="0.2" layer="16"/>
 <via x="36.375" y="18.625" extent="1-16" drill="0.3"/>
-<wire x1="16.375" y1="18.875" x2="16.625" y2="19.125" width="0.2" layer="1"/>
-<wire x1="16.375" y1="18.75" x2="16.375" y2="18.875" width="0.2" layer="1"/>
-<wire x1="15.875" y1="18.25" x2="16.375" y2="18.75" width="0.2" layer="1"/>
-<wire x1="15.875" y1="18.25" x2="15.8" y2="18.2" width="0.2" layer="1"/>
 <wire x1="15.5767" y1="19.125" x2="16.625" y2="19.125" width="0.25" layer="16"/>
 <via x="16.625" y="19.125" extent="1-16" drill="0.3"/>
 <wire x1="16.625" y1="19.125" x2="21.5" y2="19.125" width="0.2" layer="1"/>
 <wire x1="21.5" y1="19.125" x2="22" y2="18.625" width="0.2" layer="1"/>
+<wire x1="15.8" y1="17.4" x2="15.8" y2="18.3" width="0.2" layer="1"/>
+<wire x1="15.8" y1="18.3" x2="16.625" y2="19.125" width="0.2" layer="1"/>
+<wire x1="15.8" y1="17.4" x2="15.8" y2="12.45" width="0.2" layer="16"/>
+<wire x1="15.8" y1="12.45" x2="14.6" y2="11.25" width="0.2" layer="16"/>
 </signal>
 <signal name="IO0">
 <contactref element="U1" pad="23"/>
