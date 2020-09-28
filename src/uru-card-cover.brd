@@ -135,7 +135,6 @@
 <wire x1="51" y1="0" x2="54" y2="3" width="0.000009375" layer="20" curve="90"/>
 <wire x1="54" y1="82.6" x2="51" y2="85.6" width="0.000009375" layer="20" curve="90"/>
 <wire x1="3" y1="85.6" x2="0" y2="82.6" width="0.000009375" layer="20" curve="90"/>
-<rectangle x1="21.2" y1="0" x2="32.8" y2="7" layer="46"/>
 <rectangle x1="0" y1="5.8" x2="5.4" y2="32.6" layer="41"/>
 <rectangle x1="0" y1="5.8" x2="5.4" y2="32.6" layer="42"/>
 <hole x="6.5" y="3" drill="1.5"/>
@@ -144,6 +143,7 @@
 <hole x="14.12" y="3" drill="1.5"/>
 <hole x="16.66" y="3" drill="1.5"/>
 <hole x="19.2" y="3" drill="1.5"/>
+<rectangle x1="23" y1="0" x2="31" y2="7" layer="46"/>
 </plain>
 <libraries>
 </libraries>
