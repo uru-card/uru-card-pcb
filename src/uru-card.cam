@@ -239,7 +239,7 @@
                         "file_function": "Profile",
                         "plating": "non-plated"
                     },
-                    "filename_format": "%PREFIX/%N.gko",
+                    "filename_format": "%PREFIX/outline.gko",
                     "layers": [
                         20,
                         46
@@ -301,7 +301,7 @@
             ]
         }
     ],
-    "timestamp": "2020-09-02T13:51:06",
+    "timestamp": "2020-11-10T08:44:43",
     "type": "EAGLE CAM job",
     "units": "metric",
     "version": "9.2.0"
