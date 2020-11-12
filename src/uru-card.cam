@@ -194,7 +194,8 @@
                     "filename_format": "%PREFIX/silkscreen_top.gbr",
                     "layers": [
                         21,
-                        25
+                        25,
+                        27
                     ],
                     "milling": false,
                     "name": "Silkscreen Top",
@@ -279,17 +280,17 @@
             "output_type": "assembly",
             "outputs": [
                 {
-                    "filename_format": "%ASSEMBLYPREFIX/%N",
+                    "filename_format": "%ASSEMBLYPREFIX/BOM",
                     "list_attribute": true,
                     "list_type": "values",
                     "name": "Bill of Material",
-                    "output_format": "txt",
+                    "output_format": "csv",
                     "type": "bom"
                 },
                 {
                     "filename_format": "%ASSEMBLYPREFIX/PnP_%N_%BOARDSIDE",
                     "name": "Pick and Place",
-                    "output_format": "txt",
+                    "output_format": "csv",
                     "type": "pick_and_place"
                 }
             ]
@@ -301,7 +302,7 @@
             ]
         }
     ],
-    "timestamp": "2020-11-10T08:44:43",
+    "timestamp": "2020-11-12T12:38:42",
     "type": "EAGLE CAM job",
     "units": "metric",
     "version": "9.2.0"

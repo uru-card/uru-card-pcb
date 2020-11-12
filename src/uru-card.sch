@@ -11605,20 +11605,20 @@ required for the antenna.
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10K"/>
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="U$1" library="microusb" deviceset="MICRO-USB" device="V2" value="MICRO-USBV2"/>
-<part name="U$2" library="pads" deviceset="TOUCH" device="" value="1"/>
-<part name="U$3" library="pads" deviceset="TOUCH" device="" value="2"/>
-<part name="U$4" library="pads" deviceset="TOUCH" device="" value="3"/>
-<part name="U$5" library="pads" deviceset="TOUCH" device="" value="4"/>
-<part name="U$6" library="pads" deviceset="TOUCH" device="" value="5"/>
-<part name="U$7" library="pads" deviceset="TOUCH" device="" value="6"/>
-<part name="U$8" library="pads" deviceset="TOUCH" device="" value="7"/>
-<part name="U$9" library="pads" deviceset="TOUCH" device="" value="8"/>
-<part name="U$10" library="pads" deviceset="TOUCH" device="" value="9"/>
-<part name="U$11" library="pads" deviceset="TOUCH" device="" value="C"/>
-<part name="U$12" library="pads" deviceset="TOUCH" device="" value="0"/>
-<part name="U$13" library="pads" deviceset="TOUCH" device="" value="Ok"/>
-<part name="U$14" library="OLED" deviceset="WEO012832F" device="REVERSED" value="WEO012832FREVERSED"/>
+<part name="J1" library="microusb" deviceset="MICRO-USB" device="V2" value="MICRO-USBV2"/>
+<part name="TP1" library="pads" deviceset="TOUCH" device="" value="1"/>
+<part name="TP2" library="pads" deviceset="TOUCH" device="" value="2"/>
+<part name="TP3" library="pads" deviceset="TOUCH" device="" value="3"/>
+<part name="TP4" library="pads" deviceset="TOUCH" device="" value="4"/>
+<part name="TP5" library="pads" deviceset="TOUCH" device="" value="5"/>
+<part name="TP6" library="pads" deviceset="TOUCH" device="" value="6"/>
+<part name="TP7" library="pads" deviceset="TOUCH" device="" value="7"/>
+<part name="TP8" library="pads" deviceset="TOUCH" device="" value="8"/>
+<part name="TP9" library="pads" deviceset="TOUCH" device="" value="9"/>
+<part name="TP10" library="pads" deviceset="TOUCH" device="" value="C"/>
+<part name="TP11" library="pads" deviceset="TOUCH" device="" value="0"/>
+<part name="TP12" library="pads" deviceset="TOUCH" device="" value="Ok"/>
+<part name="D1" library="OLED" deviceset="WEO012832F" device="REVERSED" value="WEO012832FREVERSED"/>
 <part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1u"/>
 <part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1u"/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10K"/>
@@ -11646,7 +11646,7 @@ required for the antenna.
 <part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10u"/>
 <part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10u"/>
 <part name="U$15" library="ANT" deviceset="ANT-2_4_PCB" device=""/>
-<part name="U$16" library="CONN" deviceset="CONN" device="PADS"/>
+<part name="J2" library="CONN" deviceset="CONN" device="PADS"/>
 </parts>
 <sheets>
 <sheet>
@@ -11764,59 +11764,59 @@ required for the antenna.
 <instance part="+3V4" gate="G$1" x="48.26" y="-121.92" smashed="yes">
 <attribute name="VALUE" x="45.72" y="-127" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U$1" gate="G$1" x="0" y="-22.86" smashed="yes">
+<instance part="J1" gate="G$1" x="0" y="-22.86" smashed="yes">
 <attribute name="NAME" x="0.254" y="-19.812" size="1.778" layer="95"/>
 <attribute name="VALUE" x="0" y="-22.606" size="1.778" layer="96"/>
 </instance>
-<instance part="U$2" gate="G$1" x="96.52" y="-127" smashed="yes">
+<instance part="TP1" gate="G$1" x="96.52" y="-127" smashed="yes">
 <attribute name="NAME" x="99.06" y="-124.206" size="1.27" layer="95" font="vector"/>
 <attribute name="VALUE" x="99.06" y="-131.064" size="1.27" layer="96" font="vector"/>
 </instance>
-<instance part="U$3" gate="G$1" x="109.22" y="-127" smashed="yes">
+<instance part="TP2" gate="G$1" x="109.22" y="-127" smashed="yes">
 <attribute name="NAME" x="111.76" y="-124.206" size="1.27" layer="95" font="vector"/>
 <attribute name="VALUE" x="111.76" y="-131.064" size="1.27" layer="96" font="vector"/>
 </instance>
-<instance part="U$4" gate="G$1" x="121.92" y="-127" smashed="yes">
+<instance part="TP3" gate="G$1" x="121.92" y="-127" smashed="yes">
 <attribute name="NAME" x="124.46" y="-124.206" size="1.27" layer="95" font="vector"/>
 <attribute name="VALUE" x="124.46" y="-131.064" size="1.27" layer="96" font="vector"/>
 </instance>
-<instance part="U$5" gate="G$1" x="96.52" y="-137.16" smashed="yes">
+<instance part="TP4" gate="G$1" x="96.52" y="-137.16" smashed="yes">
 <attribute name="NAME" x="99.06" y="-134.366" size="1.27" layer="95" font="vector"/>
 <attribute name="VALUE" x="99.06" y="-141.224" size="1.27" layer="96" font="vector"/>
 </instance>
-<instance part="U$6" gate="G$1" x="109.22" y="-137.16" smashed="yes">
+<instance part="TP5" gate="G$1" x="109.22" y="-137.16" smashed="yes">
 <attribute name="NAME" x="111.76" y="-134.366" size="1.27" layer="95" font="vector"/>
 <attribute name="VALUE" x="111.76" y="-141.224" size="1.27" layer="96" font="vector"/>
 </instance>
-<instance part="U$7" gate="G$1" x="121.92" y="-137.16" smashed="yes">
+<instance part="TP6" gate="G$1" x="121.92" y="-137.16" smashed="yes">
 <attribute name="NAME" x="124.46" y="-134.366" size="1.27" layer="95" font="vector"/>
 <attribute name="VALUE" x="124.46" y="-141.224" size="1.27" layer="96" font="vector"/>
 </instance>
-<instance part="U$8" gate="G$1" x="96.52" y="-147.32" smashed="yes">
+<instance part="TP7" gate="G$1" x="96.52" y="-147.32" smashed="yes">
 <attribute name="NAME" x="99.06" y="-144.526" size="1.27" layer="95" font="vector"/>
 <attribute name="VALUE" x="99.06" y="-151.384" size="1.27" layer="96" font="vector"/>
 </instance>
-<instance part="U$9" gate="G$1" x="109.22" y="-147.32" smashed="yes">
+<instance part="TP8" gate="G$1" x="109.22" y="-147.32" smashed="yes">
 <attribute name="NAME" x="111.76" y="-144.526" size="1.27" layer="95" font="vector"/>
 <attribute name="VALUE" x="111.76" y="-151.384" size="1.27" layer="96" font="vector"/>
 </instance>
-<instance part="U$10" gate="G$1" x="121.92" y="-147.32" smashed="yes">
+<instance part="TP9" gate="G$1" x="121.92" y="-147.32" smashed="yes">
 <attribute name="NAME" x="124.46" y="-144.526" size="1.27" layer="95" font="vector"/>
 <attribute name="VALUE" x="124.46" y="-151.384" size="1.27" layer="96" font="vector"/>
 </instance>
-<instance part="U$11" gate="G$1" x="96.52" y="-157.48" smashed="yes">
+<instance part="TP10" gate="G$1" x="96.52" y="-157.48" smashed="yes">
 <attribute name="NAME" x="99.06" y="-154.686" size="1.27" layer="95" font="vector"/>
 <attribute name="VALUE" x="99.06" y="-161.544" size="1.27" layer="96" font="vector"/>
 </instance>
-<instance part="U$12" gate="G$1" x="109.22" y="-157.48" smashed="yes">
+<instance part="TP11" gate="G$1" x="109.22" y="-157.48" smashed="yes">
 <attribute name="NAME" x="111.76" y="-154.686" size="1.27" layer="95" font="vector"/>
 <attribute name="VALUE" x="111.76" y="-161.544" size="1.27" layer="96" font="vector"/>
 </instance>
-<instance part="U$13" gate="G$1" x="121.92" y="-157.48" smashed="yes">
+<instance part="TP12" gate="G$1" x="121.92" y="-157.48" smashed="yes">
 <attribute name="NAME" x="124.46" y="-154.686" size="1.27" layer="95" font="vector"/>
 <attribute name="VALUE" x="124.46" y="-161.544" size="1.27" layer="96" font="vector"/>
 </instance>
-<instance part="U$14" gate="G$1" x="210.82" y="-119.38" smashed="yes">
+<instance part="D1" gate="G$1" x="210.82" y="-119.38" smashed="yes">
 <attribute name="NAME" x="210.82" y="-119.126" size="1.778" layer="95"/>
 <attribute name="VALUE" x="210.82" y="-160.02" size="1.778" layer="96"/>
 </instance>
@@ -11914,7 +11914,7 @@ required for the antenna.
 <attribute name="VALUE" x="90.424" y="-32.639" size="1.778" layer="96"/>
 </instance>
 <instance part="U$15" gate="G$1" x="218.44" y="-25.4" smashed="yes"/>
-<instance part="U$16" gate="G$1" x="5.08" y="-58.42" smashed="yes">
+<instance part="J2" gate="G$1" x="5.08" y="-58.42" smashed="yes">
 <attribute name="NAME" x="5.08" y="-58.166" size="1.778" layer="95"/>
 <attribute name="VALUE" x="5.08" y="-78.74" size="1.778" layer="96"/>
 </instance>
@@ -11947,7 +11947,7 @@ required for the antenna.
 <segment>
 <pinref part="GND9" gate="1" pin="GND"/>
 <wire x1="27.94" y1="-73.66" x2="20.32" y2="-73.66" width="0.1524" layer="91"/>
-<pinref part="U$16" gate="G$1" pin="P5"/>
+<pinref part="J2" gate="G$1" pin="P5"/>
 </segment>
 <segment>
 <pinref part="GND10" gate="1" pin="GND"/>
@@ -11998,7 +11998,7 @@ required for the antenna.
 <wire x1="35.56" y1="-35.56" x2="35.56" y2="-33.02" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="-35.56" x2="35.56" y2="-35.56" width="0.1524" layer="91"/>
 <junction x="35.56" y="-35.56"/>
-<pinref part="U$1" gate="G$1" pin="GND"/>
+<pinref part="J1" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="U2" gate="A" pin="VSS"/>
@@ -12020,7 +12020,7 @@ required for the antenna.
 <junction x="45.72" y="-154.94"/>
 </segment>
 <segment>
-<pinref part="U$14" gate="G$1" pin="VSS"/>
+<pinref part="D1" gate="G$1" pin="VSS"/>
 <wire x1="208.28" y1="-137.16" x2="193.04" y2="-137.16" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 </segment>
@@ -12083,7 +12083,7 @@ required for the antenna.
 <segment>
 <pinref part="+3V11" gate="G$1" pin="+3V3"/>
 <wire x1="20.32" y1="-71.12" x2="35.56" y2="-71.12" width="0.1524" layer="91"/>
-<pinref part="U$16" gate="G$1" pin="P4"/>
+<pinref part="J2" gate="G$1" pin="P4"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="VOUT"/>
@@ -12119,9 +12119,9 @@ required for the antenna.
 <junction x="48.26" y="-124.46"/>
 </segment>
 <segment>
-<pinref part="U$14" gate="G$1" pin="VBAT"/>
+<pinref part="D1" gate="G$1" pin="VBAT"/>
 <wire x1="208.28" y1="-132.08" x2="200.66" y2="-132.08" width="0.1524" layer="91"/>
-<pinref part="U$14" gate="G$1" pin="VDD"/>
+<pinref part="D1" gate="G$1" pin="VDD"/>
 <wire x1="208.28" y1="-139.7" x2="200.66" y2="-139.7" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="-139.7" x2="200.66" y2="-132.08" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="-132.08" x2="182.88" y2="-132.08" width="0.1524" layer="91"/>
@@ -12186,7 +12186,7 @@ required for the antenna.
 <label x="43.18" y="-137.16" size="1.016" layer="95" rot="MR0" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$14" gate="G$1" pin="SCL"/>
+<pinref part="D1" gate="G$1" pin="SCL"/>
 <wire x1="208.28" y1="-144.78" x2="200.66" y2="-144.78" width="0.1524" layer="91"/>
 <label x="200.66" y="-144.78" size="1.016" layer="95" rot="MR0" xref="yes"/>
 </segment>
@@ -12218,7 +12218,7 @@ required for the antenna.
 <label x="43.18" y="-139.7" size="1.016" layer="95" rot="MR0" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$14" gate="G$1" pin="SDA"/>
+<pinref part="D1" gate="G$1" pin="SDA"/>
 <wire x1="208.28" y1="-147.32" x2="200.66" y2="-147.32" width="0.1524" layer="91"/>
 <label x="200.66" y="-147.32" size="1.016" layer="95" rot="MR0" xref="yes"/>
 </segment>
@@ -12238,7 +12238,7 @@ required for the antenna.
 <segment>
 <wire x1="20.32" y1="-68.58" x2="27.94" y2="-68.58" width="0.1524" layer="91"/>
 <label x="27.94" y="-68.58" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$16" gate="G$1" pin="P3"/>
+<pinref part="J2" gate="G$1" pin="P3"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="U0RXD"/>
@@ -12250,7 +12250,7 @@ required for the antenna.
 <segment>
 <wire x1="20.32" y1="-66.04" x2="27.94" y2="-66.04" width="0.1524" layer="91"/>
 <label x="27.94" y="-66.04" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$16" gate="G$1" pin="P2"/>
+<pinref part="J2" gate="G$1" pin="P2"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="U0TXD"/>
@@ -12262,7 +12262,7 @@ required for the antenna.
 <segment>
 <wire x1="20.32" y1="-60.96" x2="27.94" y2="-60.96" width="0.1524" layer="91"/>
 <label x="27.94" y="-60.96" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$16" gate="G$1" pin="P0"/>
+<pinref part="J2" gate="G$1" pin="P0"/>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
@@ -12279,7 +12279,7 @@ required for the antenna.
 <label x="114.3" y="-45.72" size="1.016" layer="95" rot="MR0" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$14" gate="G$1" pin="RES#"/>
+<pinref part="D1" gate="G$1" pin="RES#"/>
 <wire x1="208.28" y1="-142.24" x2="200.66" y2="-142.24" width="0.1524" layer="91"/>
 <label x="200.66" y="-142.24" size="1.016" layer="95" rot="MR0" xref="yes"/>
 </segment>
@@ -12293,7 +12293,7 @@ required for the antenna.
 <segment>
 <wire x1="20.32" y1="-63.5" x2="27.94" y2="-63.5" width="0.1524" layer="91"/>
 <label x="27.94" y="-63.5" size="1.016" layer="95" xref="yes"/>
-<pinref part="U$16" gate="G$1" pin="P1"/>
+<pinref part="J2" gate="G$1" pin="P1"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="IO0"/>
@@ -12341,7 +12341,7 @@ required for the antenna.
 <wire x1="45.72" y1="-30.48" x2="43.18" y2="-30.48" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="-30.48" x2="43.18" y2="-25.4" width="0.1524" layer="91"/>
 <junction x="43.18" y="-25.4"/>
-<pinref part="U$1" gate="G$1" pin="VCC"/>
+<pinref part="J1" gate="G$1" pin="VCC"/>
 <wire x1="35.56" y1="-25.4" x2="35.56" y2="-22.86" width="0.1524" layer="91"/>
 <label x="35.56" y="-22.86" size="1.016" layer="95" xref="yes"/>
 </segment>
@@ -12381,7 +12381,7 @@ required for the antenna.
 </net>
 <net name="0" class="0">
 <segment>
-<pinref part="U$12" gate="G$1" pin="P$1"/>
+<pinref part="TP11" gate="G$1" pin="P$1"/>
 <wire x1="109.22" y1="-157.48" x2="106.68" y2="-157.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -12391,7 +12391,7 @@ required for the antenna.
 </net>
 <net name="1" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="P$1"/>
+<pinref part="TP1" gate="G$1" pin="P$1"/>
 <wire x1="96.52" y1="-127" x2="93.98" y2="-127" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -12401,7 +12401,7 @@ required for the antenna.
 </net>
 <net name="2" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="P$1"/>
+<pinref part="TP2" gate="G$1" pin="P$1"/>
 <wire x1="109.22" y1="-127" x2="106.68" y2="-127" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -12411,7 +12411,7 @@ required for the antenna.
 </net>
 <net name="3" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="P$1"/>
+<pinref part="TP3" gate="G$1" pin="P$1"/>
 <wire x1="121.92" y1="-127" x2="119.38" y2="-127" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -12421,7 +12421,7 @@ required for the antenna.
 </net>
 <net name="4" class="0">
 <segment>
-<pinref part="U$5" gate="G$1" pin="P$1"/>
+<pinref part="TP4" gate="G$1" pin="P$1"/>
 <wire x1="96.52" y1="-137.16" x2="93.98" y2="-137.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -12431,7 +12431,7 @@ required for the antenna.
 </net>
 <net name="5" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="P$1"/>
+<pinref part="TP5" gate="G$1" pin="P$1"/>
 <wire x1="109.22" y1="-137.16" x2="106.68" y2="-137.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -12441,7 +12441,7 @@ required for the antenna.
 </net>
 <net name="6" class="0">
 <segment>
-<pinref part="U$7" gate="G$1" pin="P$1"/>
+<pinref part="TP6" gate="G$1" pin="P$1"/>
 <wire x1="121.92" y1="-137.16" x2="119.38" y2="-137.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -12451,7 +12451,7 @@ required for the antenna.
 </net>
 <net name="7" class="0">
 <segment>
-<pinref part="U$8" gate="G$1" pin="P$1"/>
+<pinref part="TP7" gate="G$1" pin="P$1"/>
 <wire x1="96.52" y1="-147.32" x2="93.98" y2="-147.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -12461,7 +12461,7 @@ required for the antenna.
 </net>
 <net name="8" class="0">
 <segment>
-<pinref part="U$9" gate="G$1" pin="P$1"/>
+<pinref part="TP8" gate="G$1" pin="P$1"/>
 <wire x1="109.22" y1="-147.32" x2="106.68" y2="-147.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -12471,7 +12471,7 @@ required for the antenna.
 </net>
 <net name="9" class="0">
 <segment>
-<pinref part="U$10" gate="G$1" pin="P$1"/>
+<pinref part="TP9" gate="G$1" pin="P$1"/>
 <wire x1="121.92" y1="-147.32" x2="119.38" y2="-147.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -12481,7 +12481,7 @@ required for the antenna.
 </net>
 <net name="C" class="0">
 <segment>
-<pinref part="U$11" gate="G$1" pin="P$1"/>
+<pinref part="TP10" gate="G$1" pin="P$1"/>
 <wire x1="96.52" y1="-157.48" x2="93.98" y2="-157.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -12491,7 +12491,7 @@ required for the antenna.
 </net>
 <net name="OK" class="0">
 <segment>
-<pinref part="U$13" gate="G$1" pin="P$1"/>
+<pinref part="TP12" gate="G$1" pin="P$1"/>
 <wire x1="121.92" y1="-157.48" x2="119.38" y2="-157.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -12501,7 +12501,7 @@ required for the antenna.
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="U$14" gate="G$1" pin="C1N"/>
+<pinref part="D1" gate="G$1" pin="C1N"/>
 <wire x1="208.28" y1="-129.54" x2="193.04" y2="-129.54" width="0.1524" layer="91"/>
 <pinref part="C9" gate="G$1" pin="1"/>
 <wire x1="193.04" y1="-129.54" x2="193.04" y2="-127" width="0.1524" layer="91"/>
@@ -12510,13 +12510,13 @@ required for the antenna.
 <net name="N$2" class="0">
 <segment>
 <pinref part="C9" gate="G$1" pin="2"/>
-<pinref part="U$14" gate="G$1" pin="C1P"/>
+<pinref part="D1" gate="G$1" pin="C1P"/>
 <wire x1="200.66" y1="-127" x2="208.28" y2="-127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="U$14" gate="G$1" pin="C2N"/>
+<pinref part="D1" gate="G$1" pin="C2N"/>
 <wire x1="208.28" y1="-124.46" x2="203.2" y2="-124.46" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="-124.46" x2="203.2" y2="-121.92" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="-121.92" x2="193.04" y2="-121.92" width="0.1524" layer="91"/>
@@ -12529,13 +12529,13 @@ required for the antenna.
 <pinref part="C7" gate="G$1" pin="2"/>
 <wire x1="200.66" y1="-119.38" x2="205.74" y2="-119.38" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="-119.38" x2="205.74" y2="-121.92" width="0.1524" layer="91"/>
-<pinref part="U$14" gate="G$1" pin="C2P"/>
+<pinref part="D1" gate="G$1" pin="C2P"/>
 <wire x1="205.74" y1="-121.92" x2="208.28" y2="-121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="U$14" gate="G$1" pin="IREF"/>
+<pinref part="D1" gate="G$1" pin="IREF"/>
 <wire x1="208.28" y1="-149.86" x2="187.96" y2="-149.86" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="187.96" y1="-149.86" x2="187.96" y2="-154.94" width="0.1524" layer="91"/>
@@ -12545,14 +12545,14 @@ required for the antenna.
 <segment>
 <pinref part="C12" gate="G$1" pin="1"/>
 <wire x1="195.58" y1="-154.94" x2="195.58" y2="-152.4" width="0.1524" layer="91"/>
-<pinref part="U$14" gate="G$1" pin="VCOMH"/>
+<pinref part="D1" gate="G$1" pin="VCOMH"/>
 <wire x1="195.58" y1="-152.4" x2="208.28" y2="-152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
 <pinref part="C11" gate="G$1" pin="1"/>
-<pinref part="U$14" gate="G$1" pin="VCC"/>
+<pinref part="D1" gate="G$1" pin="VCC"/>
 <wire x1="203.2" y1="-154.94" x2="208.28" y2="-154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -12577,7 +12577,7 @@ required for the antenna.
 <label x="238.76" y="-81.28" size="1.016" layer="95" rot="MR0" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="D-"/>
+<pinref part="J1" gate="G$1" pin="D-"/>
 <wire x1="17.78" y1="-27.94" x2="15.24" y2="-27.94" width="0.1524" layer="91"/>
 <label x="17.78" y="-27.94" size="1.016" layer="95" xref="yes"/>
 </segment>
@@ -12589,7 +12589,7 @@ required for the antenna.
 <label x="238.76" y="-83.82" size="1.016" layer="95" rot="MR0" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="D+"/>
+<pinref part="J1" gate="G$1" pin="D+"/>
 <wire x1="15.24" y1="-30.48" x2="17.78" y2="-30.48" width="0.1524" layer="91"/>
 <label x="17.78" y="-30.48" size="1.016" layer="95" xref="yes"/>
 </segment>
