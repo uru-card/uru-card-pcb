@@ -1,0 +1,11 @@
+Comment,Designator,Footprint,LCSC Part #,Qty,Value,Device,Package,Parts,Description,AVAILABILITY,DESCRIPTION,MF,MP,PACKAGE,POPULARITY,PRICE,SPICEPREFIX
+10K,"R1, R3, R4, R5, R6",R0603,C25804,5,,R-EU_R0603,,,"RESISTOR, European symbol",,,,,,70,,R
+10u,"C1, C2, C5, C6, C8, C10, C14, C15",C0603,C19702,8,,C-EUC0603,,,"CAPACITOR, European symbol",,,,,,73,,C
+1u,"C7, C9, C11, C12, C13",C0603,C15849,5,,C-EUC0603,,,"CAPACITOR, European symbol",,,,,,73,,C
+75K,R2,R0603,C23242,1,,R-EU_R0603,,,"RESISTOR, European symbol",,,,,,70,,R
+AP2112K-3.3TRG1,U3,SOT95P285X140-5N,C51118 ,1,,AP2112K-3.3TRG1,,,AP2112 Series 0.6 A 3.3 V Fixed Output SMT LDO Linear Regulator - SOT23-5,Unavailable, AP2112 Series 0.6 A 3.3 V Fixed Output SMT LDO Linear Regulator - SOT23-5 ,Diodes Inc.,AP2112K-3.3TRG1,SOT-753 Diodes Inc.,,None,
+ATECC508A-UDFN,U6,SON50P200X300X60-9N,C145574,1,,ATECC508A-UDFN,,,,,,,,,,,
+ESP32-PICO-D4,U1,PQFN50P700X700X104-49N,C193707 ,1,,ESP32-PICO-D4,,,"The ESP32-PICO-D4 is a System-in-Package (SIP) module that is based on ESP32, providing complete Wi-Fi",Unavailable, WIFi/Bluetooth SIP ,Espressif Systems,ESP32-PICO-D4,SMD-48 Espressif Systems,,None,
+MICRO-USBV2,J1,MICRO-USB-2,C40958,1,,MICRO-USBV2,,,Micro USB B connector,,,,,,,,
+MPR121QR2,U2,QFN40P300X300X60-20N,C91322,1,,MPR121QR2,,,Proximity Capacitive Touch Sensor Controller,Unavailable," Capacitive Touch Buttons, Slider, Wheel 20-QFN _3x3_ ",NXP USA,MPR121QR2,QFN-20 Resurgent,,None,
+TBD,L2,L2012C,C21189,1,,L-EUL2012C,,,"INDUCTOR, European symbol",,,,,,2,,L
